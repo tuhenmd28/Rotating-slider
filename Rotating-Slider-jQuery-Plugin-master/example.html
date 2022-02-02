@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="rotating-slider.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/company">
+    <!-- <a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icons created by Secret Studio - Flaticon</a> -->
+</head>
+<body>
+    <header class="d-none d-lg-block">
+        <div class="container ">
+            <ul class="menu">
+                <li class="email"><a href="tel:email"><i class="fas fa-envelope"></i>hello@colorlib.com
+                </a> 
+                </li>
+                <li class="free flex-grow-1"> Free Shipping for all Order of $99</li>
+                <li class="social-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </li>
+                <li class="flag"><img src="./img/bangladesh.jpg" alt=""> English <i class="fas fa-chevron-down"></i>
+                    <ul class="country ">
+                        <li><a href="#">Spanis</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </li>
+                <li class="login">
+                    <a href="#">
+                        <i class="fas fa-user"></i> Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="row header-nav">
+                <div class="col-lg-3 d-flex align-items-center justify-content-between">
+                    <img src="img/logo2.png"  alt="LOGO" >
+                    <li id="toggle" onclick="on()"><span class="bars"></span></li>
+                </div>
+                <div class="col-lg-5 nav ">
+                        <ul>
+                            <li><a href="#" >home</a></li>
+                            <li><a href="#" class="active">shop</a></li>
+                            <li class="pages"><a href="#">pages</a>
+                              <ul>
+                                <li><a href="#">Shop Details</a></li>
+                                <li><a href="">Shoping Card</a></li>
+                                <li><a href="">Chack Out </a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    
+                </div>
+                <div class="col-lg-3 header-icon d-flex  justify-content-lg-end">
+                    <li><i class="fas fa-heart"></i><span>1</span></li>
+                    <li><i class="fas fa-shopping-bag"></i><span>3</span></li>
+                    <li class="d-flex"> item: <p> $150.00</p></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<section class="banner" style="background-image: url(img/slider1.jpg);">
+    
+        <div class="rotating-slider">
+            <ul class="slides">
+                <li>
+                    <div class="inner active">
+                        <img src="img/slider1.jpg" class="imgi d-none" alt="">
+                        <h2>Actual Rotating Slider</h2>
+                        <p>Built with math and dedication</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider3.jpg" class="imgi d-none" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider2.jpg" class="imgi d-none" alt="">
+                        <h2>Hates IE</h2>
+                        <p>Uses clip-path to shape slides</p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider4.jpg" class="imgi d-none" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider3.jpg" class="imgi d-none" alt="">
+                        <h2>Easy to use</h2>
+                        <p>Just add list elements in the HTML and set a height and width in the JavaScript Settings</p>
+                        <p><small>Now touch &amp; drag friendly!</small></p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider4.jpg" class="imgi d-none" alt="">
+                        <h2>I'm not a thief!</h2>
+                        <p>Stock photos from www.pexels.com</p>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+</section>
+
+<section class="menu-area">
+
+    <img src="img/menu.png" alt="">
+    <span class="company icons" title="company icons"></span>
+</section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="jquery.rotating-slider.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
