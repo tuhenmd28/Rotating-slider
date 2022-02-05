@@ -72,3 +72,33 @@ else if(value6){
 
 }
 setInterval('reload()', 6000);
+
+
+
+
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+  document.querySelector(".login-area").classList.add("block")
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+  document.querySelector(".login-area").classList.remove("block")
+
+}
+
+let countryImg = document.querySelector(".country1 a img");
+
+
+let getImg = document.querySelectorAll(".img");
+
+for(let i=0; i<getImg.length;i++){
+    getImg[i].addEventListener('click', function (){
+        let src = this.childNodes[1].attributes.src.value;
+        countryImg.attributes.src.value = `${src}`;
+        console.log(src);
+    })
+}
+
+// getImg[0].childNodes[1].attributes.src.value

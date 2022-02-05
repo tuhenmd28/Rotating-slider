@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotating slider</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="rotating-slider.min.css">
@@ -45,10 +49,10 @@
         <div class="container">
             <div class="row header-nav">
                 <div class="col-lg-3 d-flex align-items-center justify-content-between">
-                    <img src="img/logo2.png"  alt="LOGO" >
-                    <li id="toggle" onclick="on()"><span class="bars"></span></li>
+                    <img src="img/flogo.png"  alt="LOGO" >
+                    <!-- <li id="toggle" onclick="on()"><span class="bars"></span></li> -->
                 </div>
-                <div class="col-lg-5 nav ">
+                <!-- <div class="col-lg-5 nav ">
                         <ul>
                             <li><a href="#" >home</a></li>
                             <li><a href="#" class="active">shop</a></li>
@@ -64,12 +68,12 @@
                             <li><a href="#">contact</a></li>
                         </ul>
                     
-                </div>
-                <div class="col-lg-3 header-icon d-flex  justify-content-lg-end">
+                </div> -->
+                <!-- <div class="col-lg-3 header-icon d-flex  justify-content-lg-end">
                     <li><i class="fas fa-heart"></i><span>1</span></li>
                     <li><i class="fas fa-shopping-bag"></i><span>3</span></li>
                     <li class="d-flex"> item: <p> $150.00</p></li>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>
@@ -79,10 +83,10 @@
         <div class="rotating-slider">
             <ul class="slides">
                 <li>
-                    <div class="inner active">
+                    <div class="inner active d-flex text-warning fs-1">
                         <img src="img/slider1.jpg" class="imgi d-none" alt="">
-                        <h2>Actual Rotating Slider</h2>
-                        <p>Built with math and dedication</p>
+                        <a href="#" ><img class="py-5 pe-3" src="img/menu.png" width="50px" alt=""></a>
+                        <p>img area with link</p>
                     </div>
                 </li>
                 <li>
@@ -128,10 +132,232 @@
 </section>
 
 <section class="menu-area">
+    <ul class="side-menu">
 
-    <img src="img/menu.png" alt="">
-    <span class="company icons" title="company icons"></span>
+        <li class="after">
+            <a href="#">
+                <img src="img/menu (1).png" alt="">
+                <span class="">menu</span>
+            </a>
+            <ul class="menu-wraper">
+                <li class=" "><a href="#home" class="active scroll">HOME</a></li>
+                <li class=""><a href="#">COMPANY</a></li>
+                <li class="after"> <a href="#">PRODUC</a>
+                
+                  <ul class="dropdown">
+                    <a  href="#">ABOUT </a>
+                    <a  href="#">VESTIGE</a>
+                    <a  href="#"> BUSINESS</a>
+                    <a  href="#"> MANAGEMENT</a>
+                    <a  href="#"> OPPORTUNITY</a>
+                    <a  href="#"> SUCCESS</a>
+                  </ul>
+    
+    
+                </li>
+                <li class=" drophas brandIist">
+                   <a href="#"><i class="fas fa-caret-down"></i>BRANDS</a>
+    
+                  <!-- <ul class="dropdown  brands">
+                    <div class="brand">
+                      <a  href="#"><img src="img/img01.png" alt=""></a>
+                      <a  href="#"><img src="img/img02.png" alt=""></a>
+                      <a  href="#"> <img src="img/img03.png" alt=""></a>
+                      <a  href="#"> <img src="img/img04.png" alt=""></a>
+                      <a  href="#"> <img src="img/img05.png" alt=""></a>
+                      <a  href="#"> <img src="img/img06.png" alt=""></a>
+                      <a  href="#"> <img src="img/img07.png" alt=""></a>
+                      <a  href="#"> <img src="img/img08.png" alt=""></a>
+                      <a  href="#"> <img src="img/img09.png" alt=""></a>
+                      <a  href="#"> <img src="img/img010.png" alt=""></a>
+                      <a  href="#"> <img src="img/img011.png" alt=""></a>
+                    </div>
+                  </ul> -->
+    
+    
+    
+                </li>
+                <li class=""><a href="#">NEWS</a></li>
+                <li class=""><a href="#">GALLERY</a></li>
+                <li class=""><a href="#">SCHEDULE</a></li>
+                <li class=""><a href="#">BRANCHES</a></li>
+                <li class=""><a href="#">DOWNLOADS</a></li>
+                <li class=""><a href="#">CAREER</a></li> 
+                
+    
+                <!-- <li class="flag"><a href="#" class="d-flex flex-column">
+                  <img  src="img/bangladesh.jpg" class="" alt="">
+    
+                </a></li> 
+                <li class="language-btn"><a href="#">
+                  <button class="btn text-white" type="button">English <img src="img/arrow-down.png" alt=""></button>
+                </a></li>
+                <li class="search"><a href="#">
+                  <img src="img/search.png" alt="" class="search">
+                </a></li>
+                <li class="login"><a href="#">
+                  <button type="button" class="btn btn-primary btn-login" > Login</button>
+                </a></li>
+                <li class="profile"><a href="#"><i class="far fa-user-circle"></i></a></li> -->
+                </ul>
+        </li>
+        <li onmouseover="on()">
+            <a href="#">
+                <img src="img/user.png" alt="">
+                <span>login</span>
+            </a>
+          
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/language.png" alt="">
+                <span>language</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/loupe.png" alt="">
+                <span>search</span>
+            </a>
+        </li>
+        <li class="after country1">
+            <a href="#">
+                <img src="img/bangladesh.png" alt="">
+                <span>country</span>
+            </a>
+            <ul class="menu-wraper menu-wraper1">
+                <li>
+                    <a href="#" class="img">
+                        <img  src="img/india.jpg" alt="">
+                    </a> 
+                </li>
+                <li>
+                    <a href="#" class="img">
+                        <img src="img/ghana.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="img">
+                        <img src="img/saudiarabia.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="img">
+                        <img src="img/india.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="img">
+                        <img src="img/uae.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </li>
+ 
+        <li>
+            <a href="#">
+                <img src="img/toggle.png" alt="">
+                <span>button</span>
+            </a>
+        </li>
+    </ul>
+    <!-- <img src="img/menu.png" alt=""> -->
 </section>
+
+    <!-- login area -->
+    <div onclick="off()" id="overlay"></div>
+
+    <div class="login-area">
+        <h1>LOGIN</h1>
+        <div class="login-input-area">
+          <form action="">
+  
+            <label for="text">DISTRIBUTOR ID</label>
+            <input type="text " id="text" placeholder="Enter Your Distributor ID">
+            <label for="password">PASSWORD</label>
+            <input type="password " id="password" placeholder="Your Password">
+            <input type="submit"   id="submit" value="GO">
+          </form>
+          <a href="#">FORGOT PASSWORD?</a>
+        </div>
+      </div>
+
+
+<!-- img section -->
+
+<section class="img-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-12 position-relative">
+          <a href="#">
+
+            <img src="img/001.jpg" alt="" class="img-fluid w-100">
+          </a>
+          <div class="img-text  clearfix position-absolute">
+            <div class="left-text float-start">
+              
+                <span class="d-block">MONTHLY SCHEMES</span>
+                <span>Click Here Know the monthly schemes and special offers</span>
+              
+            </div>
+            <div class="right-icon float-end  "><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 position-relative">
+          <a href="#">
+
+            <img src="img/004.jpg" alt="" class="img-fluid w-100">
+          </a>
+          <div class="img-text  clearfix position-absolute">
+            <div class="left-text float-start">
+              
+                <span class="d-block">MONTHLY SCHEMES</span>
+                <span>Click Here Know the monthly schemes and special offers</span>
+              
+            </div>
+            <div class="right-icon float-end  "><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 position-relative">
+          <a href="#">
+
+            <img src="img/003.jpg" alt="" class="img-fluid w-100">
+          </a>
+          <div class="img-text  clearfix position-absolute">
+            <div class="left-text float-start">
+              
+                <span class="d-block">MONTHLY SCHEMES</span>
+                <span>Click Here Know the monthly schemes and special offers</span>
+              
+            </div>
+            <div class="right-icon float-end  "><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 position-relative">
+          <a href="#">
+
+            <img src="img/002.jpg" alt="" class="img-fluid w-100">
+          </a>
+          <div class="img-text  clearfix position-absolute">
+            <div class="left-text float-start">
+              
+                <span class="d-block">MONTHLY SCHEMES</span>
+                <span>Click Here Know the monthly schemes and special offers</span>
+              
+            </div>
+            <div class="right-icon float-end  "><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+<!-- img section end -->
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -139,3 +365,7 @@
     <script src="main.js"></script>
 </body>
 </html>
+
+
+
+
