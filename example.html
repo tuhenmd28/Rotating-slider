@@ -13,13 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="rotating-slider.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/company">
-    <!-- <a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icons created by Secret Studio - Flaticon</a> -->
 </head>
 <body>
-    <header class="d-none d-lg-block">
+    <header class="d-md-flex">
         <div class="container ">
-            <ul class="menu">
+            <ul class="menu d-md-flex">
                 <li class="email"><a href="tel:email"><i class="fas fa-envelope"></i>hello@colorlib.com
                 </a> 
                 </li>
@@ -30,119 +28,139 @@
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-pinterest-p"></i></a>
                 </li>
-                <li class="flag"><img src="./img/bangladesh.jpg" alt=""> English <i class="fas fa-chevron-down"></i>
-                    <ul class="country ">
-                        <li><a href="#">Spanis</a></li>
-                        <li><a href="#">English</a></li>
-                    </ul>
-                </li>
-                <li class="login">
-                    <a href="#">
-                        <i class="fas fa-user"></i> Login
-                    </a>
-                </li>
+         
             </ul>
         </div>
     </header>
 
     <nav>
         <div class="container">
-            <div class="row header-nav">
-                <div class="col-lg-3 d-flex align-items-center justify-content-between">
+            <div class=" header-nav">
+                <div class="logo">
                     <img src="img/flogo.png"  alt="LOGO" >
-                    <!-- <li id="toggle" onclick="on()"><span class="bars"></span></li> -->
                 </div>
-                <!-- <div class="col-lg-5 nav ">
-                        <ul>
-                            <li><a href="#" >home</a></li>
-                            <li><a href="#" class="active">shop</a></li>
-                            <li class="pages"><a href="#">pages</a>
-                              <ul>
-                                <li><a href="#">Shop Details</a></li>
-                                <li><a href="">Shoping Card</a></li>
-                                <li><a href="">Chack Out </a></li>
-                                <li><a href="">Blog Details</a></li>
-                            </ul>
-                            </li>
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">contact</a></li>
-                        </ul>
-                    
-                </div> -->
-                <!-- <div class="col-lg-3 header-icon d-flex  justify-content-lg-end">
-                    <li><i class="fas fa-heart"></i><span>1</span></li>
-                    <li><i class="fas fa-shopping-bag"></i><span>3</span></li>
-                    <li class="d-flex"> item: <p> $150.00</p></li>
-                </div> -->
+                <div class="add">
+                    <!-- <img src="https://tpc.googlesyndication.com/simgad/12551348051857534822" border="0"  alt="" class="img_ad"> -->
+                </div>
             </div>
         </div>
     </nav>
 
 <section class="banner" style="background-image: url(img/slider1.jpg);">
     
-        <div class="rotating-slider">
+        <div class="rotating-slider d-lg-block d-none">
             <ul class="slides">
                 <li>
-                    <div class="inner active d-flex text-warning fs-1">
+                    <div class="inner ">
                         <img src="img/slider1.jpg" class="imgi d-none" alt="">
-                        <a href="#" ><img class="py-5 pe-3" src="img/menu.png" width="50px" alt=""></a>
-                        <p>img area with link</p>
+                        <a href="#" ><img class="py-5 pe-3" src="img/clock.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> Grievance Redressal</h3>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <img src="img/slider3.jpg" class="imgi d-none" alt="">
-
+                        <a href="#" ><img class="py-5 pe-3" src="img/mobile-phone.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> Schedule</h3>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <img src="img/slider2.jpg" class="imgi d-none" alt="">
-                        <h2>Hates IE</h2>
-                        <p>Uses clip-path to shape slides</p>
+                        <a href="#" ><img class="py-5 pe-3" src="img/checkout.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> online shopping</h3>
 
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <img src="img/slider4.jpg" class="imgi d-none" alt="">
-
+                        <a href="#" ><img class="py-5 pe-3" src="img/clock.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> vleadingladies</h3>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider4.jpg" class="imgi d-none" alt="">
+                        <a href="#" ><img class="py-5 pe-3" src="img/mobile-phone.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> mobile app</h3>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                        <img src="img/slider4.jpg" class="imgi d-none" alt="">
+                        <a href="#" ><img class="py-5 pe-3" src="img/book.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> e-voice</h3>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <img src="img/slider3.jpg" class="imgi d-none" alt="">
-                        <h2>Easy to use</h2>
-                        <p>Just add list elements in the HTML and set a height and width in the JavaScript Settings</p>
-                        <p><small>Now touch &amp; drag friendly!</small></p>
+                        <a href="#" ><img class="py-5 pe-3" src="img/mobile-phone.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> Assure Natural</h3>
 
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <img src="img/slider4.jpg" class="imgi d-none" alt="">
-                        <h2>I'm not a thief!</h2>
-                        <p>Stock photos from www.pexels.com</p>
+                        <a href="#" ><img class="py-5 pe-3" src="img/bank.png" width="50px" alt=""> <span>click here</span> </a>
+                        <h3> Bank Pan</h3>
 
                     </div>
                 </li>
             </ul>
         </div>
-    
+        <div class="bottom-btn d-flex flex-wrap align-content-center justify-content-center ">
+            <a href="#" class="btn btn-primary" data-send="grievance redressal"><i class="far fa-clock"></i> grievance redressal</a>
+            <a href="#" class="btn btn-primary" data-send="mobile app"><i class="fas fa-mobile-alt"></i> mobile app</a>
+            <a href="#" class="btn btn-primary" data-send="schedule"><i class="far fa-clock"></i> schedule</a>
+            <a href="./ecommerce/index.html" class="btn btn-primary" data-send="online shopping"><i class="fas fa-shopping-cart"></i> online shopping</a>
+            <a href="#" class="btn btn-primary" data-send="vleadingladies"><i class="fas fa-mobile-alt"></i> vleadingladies</a>
+            <a href="#" class="btn btn-primary" data-send="e-voice"><i class="fas fa-book"></i> e-voice</a>
+            <a href="#" class="btn btn-primary" data-send="assure natural"><i class="fas fa-mobile-alt"></i> assure natural</a>
+            <a href="#" class="btn btn-primary" data-send="bank pan"><i class="fas fa-store"></i> bank pan</a>
+          </div>
 </section>
 
-<section class="menu-area">
-    <ul class="side-menu">
 
-        <li class="after">
+<div class="language">
+    <h1>SELECT LANGUAGE</h1>
+    <div class="language-wraper d-flex flex-wrap">
+      <span>English</span>
+      <span>हिंदीਪੰਜਾਬੀ</span>
+      <span>বাংলা</span>
+      <span>ગુજરાતી</span>
+      <span>मराठी</span>
+      <span>தமிழ்</span>
+      <span>తెలుగు</span>
+      <span>தமிழ்</span>
+      <span>മലയാ</span>
+      <span>ളംಕನ್ನಡ</span>
+    </div>
+  </div>
+  <div class="search-area">
+          
+    <!-- <span class="search-none"><i class="fas fa-times"></i></span> -->
+    <div class="search-center">
+      <input type="text" placeholder="Search For Product Name And Description" class="form-control ">
+      <button type="button" class="btn btn-primary">SEARCH</button>
+    </div>
+</div>
+
+
+<section class="menu-area" >
+    <ul class="side-menu" >
+
+        <li class="after" >
             <a href="#">
                 <img src="img/menu (1).png" alt="">
-                <span class="">menu</span>
+                <span  class="animation">menu</span>
             </a>
-            <ul class="menu-wraper">
+            <ul class="menu-wraper" >
                 <li class=" "><a href="#home" class="active scroll">HOME</a></li>
                 <li class=""><a href="#">COMPANY</a></li>
-                <li class="after"> <a href="#">PRODUC</a>
+                <li class="after "> <a href="#">PRODUC</a>
                 
                   <ul class="dropdown">
                     <a  href="#">ABOUT </a>
@@ -155,10 +173,10 @@
     
     
                 </li>
-                <li class=" drophas brandIist">
+                <li class="after drophas brandIist">
                    <a href="#"><i class="fas fa-caret-down"></i>BRANDS</a>
     
-                  <!-- <ul class="dropdown  brands">
+                  <ul class="dropdown  brands">
                     <div class="brand">
                       <a  href="#"><img src="img/img01.png" alt=""></a>
                       <a  href="#"><img src="img/img02.png" alt=""></a>
@@ -172,7 +190,7 @@
                       <a  href="#"> <img src="img/img010.png" alt=""></a>
                       <a  href="#"> <img src="img/img011.png" alt=""></a>
                     </div>
-                  </ul> -->
+                  </ul>
     
     
     
@@ -181,49 +199,43 @@
                 <li class=""><a href="#">GALLERY</a></li>
                 <li class=""><a href="#">SCHEDULE</a></li>
                 <li class=""><a href="#">BRANCHES</a></li>
-                <li class=""><a href="#">DOWNLOADS</a></li>
+                <li class="after"><a href="#">DOWNLOADS</a>
+                    <ul class="dropdown">
+                        <a  href="#">ABOUT </a>
+                        <a  href="#">VESTIGE</a>
+                        <a  href="#"> BUSINESS</a>
+                        <a  href="#"> MANAGEMENT</a>
+                        <a  href="#"> OPPORTUNITY</a>
+                        <a  href="#"> SUCCESS</a>
+                      </ul>
+                </li>
                 <li class=""><a href="#">CAREER</a></li> 
-                
-    
-                <!-- <li class="flag"><a href="#" class="d-flex flex-column">
-                  <img  src="img/bangladesh.jpg" class="" alt="">
-    
-                </a></li> 
-                <li class="language-btn"><a href="#">
-                  <button class="btn text-white" type="button">English <img src="img/arrow-down.png" alt=""></button>
-                </a></li>
-                <li class="search"><a href="#">
-                  <img src="img/search.png" alt="" class="search">
-                </a></li>
-                <li class="login"><a href="#">
-                  <button type="button" class="btn btn-primary btn-login" > Login</button>
-                </a></li>
-                <li class="profile"><a href="#"><i class="far fa-user-circle"></i></a></li> -->
-                </ul>
+
+         </ul>
         </li>
-        <li onmouseover="on()">
+        <li onclick="on()">
             <a href="#">
                 <img src="img/user.png" alt="">
-                <span>login</span>
+                <span  class="animation">login</span>
             </a>
           
         </li>
         <li>
-            <a href="#">
+            <a href="#" onclick="onlg()">
                 <img src="img/language.png" alt="">
-                <span>language</span>
+                <span  class="animation">language</span>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#"  onclick="onsr()">
                 <img src="img/loupe.png" alt="">
-                <span>search</span>
+                <span  class="animation">search</span>
             </a>
         </li>
         <li class="after country1">
             <a href="#">
                 <img src="img/bangladesh.png" alt="">
-                <span>country</span>
+                <span  class="animation">country</span>
             </a>
             <ul class="menu-wraper menu-wraper1">
                 <li>
@@ -254,10 +266,10 @@
             </ul>
         </li>
  
-        <li>
+        <li class="d-none">
             <a href="#">
                 <img src="img/toggle.png" alt="">
-                <span>button</span>
+                <span  class="animation">button</span>
             </a>
         </li>
     </ul>
@@ -355,14 +367,69 @@
 
 <!-- img section end -->
 
+<ul class="menu-wraper" >
+    <li class=" "><a href="#home" class="active scroll">HOME</a></li>
+    <li class=""><a href="#">COMPANY</a></li>
+    <li class="after "> <a href="#">PRODUC</a>
+    
+      <ul class="dropdown">
+        <a  href="#">ABOUT </a>
+        <a  href="#">VESTIGE</a>
+        <a  href="#"> BUSINESS</a>
+        <a  href="#"> MANAGEMENT</a>
+        <a  href="#"> OPPORTUNITY</a>
+        <a  href="#"> SUCCESS</a>
+      </ul>
+
+
+    </li>
+    <li class="after drophas brandIist">
+       <a href="#"><i class="fas fa-caret-down"></i>BRANDS</a>
+
+      <ul class="dropdown  brands">
+        <div class="brand">
+          <a  href="#"><img src="img/img01.png" alt=""></a>
+          <a  href="#"><img src="img/img02.png" alt=""></a>
+          <a  href="#"> <img src="img/img03.png" alt=""></a>
+          <a  href="#"> <img src="img/img04.png" alt=""></a>
+          <a  href="#"> <img src="img/img05.png" alt=""></a>
+          <a  href="#"> <img src="img/img06.png" alt=""></a>
+          <a  href="#"> <img src="img/img07.png" alt=""></a>
+          <a  href="#"> <img src="img/img08.png" alt=""></a>
+          <a  href="#"> <img src="img/img09.png" alt=""></a>
+          <a  href="#"> <img src="img/img010.png" alt=""></a>
+          <a  href="#"> <img src="img/img011.png" alt=""></a>
+        </div>
+      </ul>
 
 
 
+    </li>
+    <li class=""><a href="#">NEWS</a></li>
+    <li class=""><a href="#">GALLERY</a></li>
+    <li class=""><a href="#">SCHEDULE</a></li>
+    <li class=""><a href="#">BRANCHES</a></li>
+    <li class="after"><a href="#">DOWNLOADS</a>
+        <ul class="dropdown">
+            <a  href="#">ABOUT </a>
+            <a  href="#">VESTIGE</a>
+            <a  href="#"> BUSINESS</a>
+            <a  href="#"> MANAGEMENT</a>
+            <a  href="#"> OPPORTUNITY</a>
+            <a  href="#"> SUCCESS</a>
+          </ul>
+    </li>
+    <li class=""><a href="#">CAREER</a></li> 
 
+</ul>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" "></script>
     <script src="jquery.rotating-slider.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
 
